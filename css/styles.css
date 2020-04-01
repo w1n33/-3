@@ -1,0 +1,36 @@
+body{background-color:#dee3e2;
+font-family: Arial,Helvetica,sans-serif;}
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color:#de7119;
+  border-width: 5px;
+
+  width:5%;
+}
+h1{
+  color:#66bfbf;
+  letter-spacing:5px;
+  text-shadow: 2px 2px 5px red;
+}
+
+h3{
+  color:#66bfbf;
+}
+div {
+  width: 100px;
+  height: 100px;
+
+  position: relative;
+  animation: mymove 5s infinite;
+}
+div{animation-timing-function: linear;}
+.image2{ animation-timing-function: ease;
+}
+.image3{animation-timing-function: ease-in;}
+.image4{animation-timing-function: ease-out;}
+
+@keyframes mymove {
+  from {left: 100px;}
+  to {left: 1300px;}
+}
