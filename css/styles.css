@@ -31,6 +31,6 @@ div{animation-timing-function: linear;}
 .image4{animation-timing-function: ease-out;}
 
 @keyframes mymove {
-  from {left: 20%;}
+  from {left: 10%;}
   to {left: 80%;}
 }
