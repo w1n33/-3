@@ -22,13 +22,26 @@ div {
   height: 100px;
 
   position: relative;
-  animation: mymove 5s infinite;
+  animation: mymove 7s infinite alternate;
 }
-div{animation-timing-function: linear;}
-.image2{ animation-timing-function: ease;
+div{
+  animation-timing-function: linear;}
+.image2{ 
+  animation-timing-function: ease;
 }
-.image3{animation-timing-function: ease-in;}
-.image4{animation-timing-function: ease-out;}
+.image3{
+  animation-timing-function: ease-in;
+}
+.image4{
+  animation-timing-function: ease-out;
+}
+.circle{
+  background-color:#dee3e2;
+  border-radius:100%;
+  height:200px;
+  width:200px;
+}
+  
 
 @keyframes mymove {
   from {left: 10%;}
