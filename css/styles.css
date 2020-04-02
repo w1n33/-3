@@ -1,5 +1,8 @@
 body{background-color:#dee3e2;
+  transition: 1s;
 font-family: Arial,Helvetica,sans-serif;}
+body:hover{
+  background-color: gold;}
 hr{
   border-style: none;
   border-top-style:dotted;
